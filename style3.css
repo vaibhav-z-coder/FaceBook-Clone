@@ -1,0 +1,102 @@
+  body{
+            background-color: white;
+        }
+        header{
+            background-color: white;
+            height: 70px;
+            margin: -15px;
+            display: flex;
+            justify-content: space-between;
+        }
+       img{
+        margin-left: 120px;
+        margin-top: 20px;
+       }
+
+        .inputt{
+            display: flex;
+            margin-right: 12px;
+            gap: 8px;
+
+            padding: 8px;
+            margin-top: 6px;
+        }
+        input{
+            margin-top: 8px;
+        }
+        .btn-info{
+            background-color: rgb(27, 116, 238);
+            color: white;
+            margin-top:5px;
+            width: 120px;
+        }
+        p>a{
+            text-decoration: none;
+
+        }
+        
+        a{
+            display: flex;
+            text-decoration: none;
+            margin-top: 12px;
+        }
+        main{
+            background-color: rgb(233,235, 238);
+            padding: 20px;
+            margin-top: 12px;
+        }
+        .box{
+            border: 1px solid white;
+            box-shadow: 4px 5px 6px rgba(128, 128, 128, 0.537);
+            width: 500px;
+            height: 240px;
+            border-radius: 8px;
+            background-color: white;
+            margin-left: 470px;
+            margin-bottom: 120px;
+            margin-top: 100px;
+        }
+        h4{
+            padding: 20px;
+        }
+        .para{
+            font-size: 18px;
+            margin-left: 30px;
+        }
+        .btn-inn{
+            margin-left: 300px;
+            background-color: rgb(24,119,242);
+            color: white;
+            font-weight: 500;
+        }
+        .btn-in{
+            color: rgb(75, 79, 86);
+            background-color: rgb(228,230,235);
+
+        }
+        footer{
+            padding-top: 100px;
+            background-color: white;
+        }
+
+         footer{
+        background-color: white;
+        margin-top: 80px;
+
+       }
+        .lang{
+                margin-left: 430px;
+                background-color: white;
+        }
+        .bi-plus-square{
+            color: rgb(39, 36, 36);
+        }
+        .sub_foot{
+            font-size: 12px;
+            color: gray;
+        }
+        .sub_foot1{
+            font-size: 14px;
+            color: gray;
+
+        }

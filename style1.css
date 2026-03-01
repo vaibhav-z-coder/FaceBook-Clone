@@ -1,0 +1,116 @@
+ body{
+            background-color: rgb(242, 244, 247);
+
+        }
+        .face{
+            display: flex;
+            margin-left: 18vw;
+
+
+        }
+        .face1{
+            display: flex;
+            margin-left: 18vw;
+            font-size: 30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .main_face{
+            margin-top: 22vh;
+
+        }
+        form{
+            background-color:rgb(255,255,255);
+            width: 400px;
+            padding: 20px;
+            height: 360px;
+            margin-left: 100px;
+            border-radius:8px;
+            margin-top: 140px;
+            transition: 300ms;
+            box-shadow: 5px 5px 28px rgba(128, 128, 128, 0.857);
+        }
+        form:hover{
+            
+            transition: 400ms;
+        }
+        .green-btn{
+            background-color:rgb(72, 205, 46);
+            border-radius: 4px;
+             color:white;
+              font-weight:600;
+              text-decoration: none;
+            padding:10px 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 83px;
+            transition: 200ms;
+        }
+        .green-btn:hover{
+            background-color:rgba(70, 202, 44, 0.877);
+            transform:scale(1.1);
+            transition: 300ms;
+            color: white;
+        }
+        .rounded-2{
+            padding: 13px;
+        }
+         .rounded-1{
+            padding: 10px;
+            border-radius: 7px;
+            font-size: 19px;
+        }
+        hr{
+            color: gray;
+        }
+        .forgot{
+            color: rgb(8,102,255);
+            margin-top: 12px;
+            font-weight: 400;
+            padding-left: 14px;
+            text-decoration: none;
+            font-size: 16px;
+            width: 180px;
+
+            transition: 100ms;
+            margin-left: 85px;
+        }
+        .forgot:hover{
+            cursor: pointer;
+            color: rgb(75, 65, 214);
+            transition: 600ms;
+
+        }
+        main{
+            display: flex;
+            background-color: rgb(242, 244, 247);
+            height: 700px;
+
+        }
+        .create{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            margin-top: 20px;
+            margin-left: 160px;
+        }
+        footer{
+            height: 200px;
+            background-color: white;
+        }
+        .lang{
+                margin-left: 300px;
+        }
+        .bi-plus-square{
+            color: rgb(39, 36, 36);
+        }
+        .sub_foot{
+            font-size: 12px;
+            color: gray;
+        }
+        .sub_foot1{
+            font-size: 14px;
+            color: gray;
+           padding-top: 22px;
+        }
+         hr{
+            margin-right:400px;
+        }
+       
