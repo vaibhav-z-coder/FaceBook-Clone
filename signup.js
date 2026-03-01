@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
         form.reset();
 
         // redirect to login page
-        window.location.href = "index1.html";
+        window.location.href = "index.html";
     });
 
 });
