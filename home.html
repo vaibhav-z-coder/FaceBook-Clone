@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <title>Facebook-Dummy-Page</title>
     <style>
-        header{
-                box-shadow: 3px 4px 6px rgba(128, 128, 128, 0.537);
-                height: 67px;
-                width: 100%;
-        }
-        .search-bod{
-            background-color:#f0f2f5;
-            width: 17%;
-            padding:0.51%;
-            margin: 12px;
-        }
+     header {
+  box-shadow: 3px 4px 6px rgba(128, 128, 128, 0.537);
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+ .search-bod {
+  background-color: #f0f2f5;
+  width: 270px;        /* fixed like Facebook */
+  padding: 8px 12px;
+  margin-left: 12px;
+  flex-shrink: 0;      /* IMPORTANT */
+}
         .input-field{
             background-color: transparent;
             border: none;
@@ -34,20 +38,64 @@
         align-items: center;
         margin-left: 17px;
        }
-        
+      .find_friends {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(226,229,233);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+.bi-person-fill{
+    color: gray;
+}
+.bi {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(226,229,233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 23px;
+  padding: 0;
+}
+.flexing {
+  display: flex;
+  align-items: center;
+  gap: 12px;      /* perfect spacing */
+}
+.bi-search{
+     display: inline;
+}
     </style>
 </head>
 <body>
-  <header>
+<header>
  <div class="top-logo">
-    <div class="image">
-    <img src="./images/image copy 2.png" alt="" width="44">
-    </div>
-    <div class="search-bod rounded-pill">
+      <div class="image">
+       <img src="./images/image copy 2.png" alt="" width="44">
+      </div>
+     <div class="search-bod rounded-pill">
         <i class="bi bi-search"></i>
         <input type="text" placeholder="Search Facebook" class="input-field">
-    </div>
+     </div>
 </div>
+
+
+
+<div class="flexing">
+
+<div class="find_friends rounded-pill">Find Friends</div>
+<div class="bi bi-list"></div>
+<div class="bi bi-messenger"></div>
+<div class="bi bi-bell-fill"></div>
+<div class="bi bi-person-fill"></div>
+
+</div>
+
   </header>
 
 
