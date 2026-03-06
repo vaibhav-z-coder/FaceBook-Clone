@@ -32,7 +32,7 @@ It demonstrates modern web development practices including authentication, REST 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack-
 
 ### 💻 Frontend
 
